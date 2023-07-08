@@ -22,3 +22,22 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+## How to Use
+install dependencies
+```
+gem install bundler
+bundle install
+```
+configure database
+```
+rails db:create
+rails db:migrate
+```
+Start the server
+```
+rails server OR rails s
+```
+It will start by default on port 3000
+
